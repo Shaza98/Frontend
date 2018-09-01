@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.class1
+{
+margin-left: 10cm;
+width: 150px;
+height: 35px;
+margin-bottom: 0.2cm;
+}
+.class2
+{
+width: 150px; 
+height: 35px;
+margin-bottom: 0.2cm;
+}
+.class3
+{
+margin-left: 17.5cm;
+width: 320px;
+height: 35px;
+}
+.class4
+{
+position: fixed;
+margin-top: -0.5em;
+}
+.class5
+{
+position: fixed;
+margin-top: -1.3em;
+}
+.class6
+{
+	margin-left:1em;
+}
+#id1
+{
+margin-left: 5cm;
+}
+.font
+{
+font-family: "Calibri" ;
+font-size: 30pt;
+}
+.font1
+{
+font-family: "Calibri" ;
+
+}
+.color
+{
+color: grey;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #b4b4b4;
+}
+
+</style>
+</head>
+<body>
+<center class="font"> CONTACT </center> </br> 
+<center class="color"> Fan? Drop a note! </center> </br>
+<form>
+<p>
+<span id="id1" class="font1 "> <img src="location.png" alt=“Image" width="15" height="15"> 
+Chicago,US  </span>
+<input type="text" class="class1 color"  value=" Name"> 
+<input type="text" class="class2 color class6" value=" Email"> </br>
+<span id="id1" class="font1 class4"> <img src="mobile.png" alt=“Image" width="15" height="15">   Phone:+00 151515  
+</span>
+<input type="text" name="Message" class="class3 color" value=" Message"> </br>
+<span id="id1" class="font1 class5"> <img src="email.png" alt=“Image" width="15" height="15">
+Email: mail@mail.com 
+
+</span> </br>
+</p>
+<input type="submit" value="Submit">
+ 
+</form>
+
+
+</body>
+</html>
